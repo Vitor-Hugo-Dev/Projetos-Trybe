@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px 80px;
+}
+
+.trybewarts-header-logo {
+  text-align: left;
+  width: 50px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  text-align: center;
+}
+
+.trybewarts-login {
+  align-items: center;
+  display: flex;
+}
+
+.trybewarts-login input {
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.trybewarts-login button {
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+}
+
+main {
+  align-items: center;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#evaluation-form h2 {
+  margin-bottom: 20px;
+}
+
+#evaluation-form hr {
+  margin: 25px 0;
+}
+
+#evaluation-form select {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 275px;
+}
+
+#trybewarts-forms-logo {
+  margin-left: 20px;
+  height: 500px;
+}
+
+#form-content-1 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#form-content-1 input {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 300px;
+}
+
+#form-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#form-content-2 input {
+  margin-right: 10px;
+}
+
+#form-content-2 label {
+  margin: 0;
+}
+
+#form-content-2 ul {
+  padding: 0;
+  list-style: none;
+}
+
+#form-content-2 ul li {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+
+#form-content-3 {
+  display: flex;
+}
+
+#form-content-3 ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#form-content-3 ul li {
+  margin-right: 20px;
+  padding: 5px 0;
+}
+
+#form-content-4 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-content-4 textarea {
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+
+#form-content-4 div {
+  margin: 20px 0;
+}
+
+#form-content-4 button {
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.label-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

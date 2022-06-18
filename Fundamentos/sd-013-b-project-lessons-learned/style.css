@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  display: block;
+}
+
+#minha_foto {
+  position: relative;
+  display: block;
+  top: 70px;
+  width: 200px;
+  margin-bottom: 120px;
+  border: 5px solid black;
+}
+
+#licoes_aprendidas {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#rodape {
+  position: fixed;
+  display: block;
+}

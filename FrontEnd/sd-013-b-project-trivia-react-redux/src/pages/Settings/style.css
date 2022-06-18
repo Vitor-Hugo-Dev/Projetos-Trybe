@@ -1,0 +1,19 @@
+.settings-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-direction: column;
+  background: white;
+  padding: 3em;
+  width: 30em;
+  border-radius: 0.7em;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.select-section {
+  display: grid;
+  gap: 2em;
+  grid-template-areas: 'category category'
+                       'difficulty type';
+}
